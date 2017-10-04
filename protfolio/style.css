@@ -95,7 +95,7 @@
       margin: 0;
     }
     .profilePic {
-      max-width: 100%;
+      width: 100%;
       padding: 10px;
       margin: 10px 0 50px 10px;
     }
