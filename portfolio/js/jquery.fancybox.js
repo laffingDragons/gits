@@ -1973,6 +1973,11 @@
 
 	// Tests that need a body at doc ready
 	D.ready(function() {
+        // tryna hide navbar 
+        $(window).on("scroll",function(){
+            $("#trance").css("opacity","0.3")
+        })
+        
 		var w1, w2;
 
 		if ( $.scrollbarWidth === undefined ) {
